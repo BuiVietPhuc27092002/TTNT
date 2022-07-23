@@ -1,0 +1,174 @@
+@media screen  and (max-width:1200px) {
+    .wrapper {
+        display: block;
+        align-items: center;
+    }
+
+    .menu {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        right: unset;
+        left: -115px;
+        transition: 0.5s ease-in-out;
+        transform: scale(.8);
+        position: fixed;
+        top: 5%;
+    }
+    .menu:hover {
+        left: 0;
+    }
+    .menu_item {
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+
+
+    .sidebar {
+        max-width: none;
+        height: auto;
+        align-items: flex-start;
+        box-sizing: border-box;   
+        margin-top: -160px;  
+        flex-direction: row;  
+        flex: 1;
+        display: flex;
+    }
+    .avatar {
+        position: unset;
+        transform: none;
+        margin: 60px 30px 0 60px;
+    }  
+
+    .info {
+        flex: 1;
+    }
+    .name {
+        margin-top: 60px;
+               
+    }
+    .job {
+          
+    }
+    .social {
+        margin-top: 20px; 
+    }
+    .card {
+        background-color: white;
+        padding: 0;
+        width: auto;
+    }
+    .card_item {
+        border-bottom: solid 1px #e3e3e3;
+        padding-bottom: 10px;
+    }
+    
+    .download_btn {
+        margin-bottom: 60px;
+    } 
+
+    
+    .main {
+        margin-left: 0;
+        margin-top: 70px;      
+    }
+}
+  
+
+@media screen and (max-width:768px){
+    .wrapper {
+        display: block;
+        align-items: center;
+    }
+
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        right: unset;
+        left: -115px;
+        transform: scale(.75);
+        transition: 0.5s ease-in-out;
+        position: fixed;
+        top: 0%;
+    }
+    .menu:hover {
+        left: 0;
+    }
+    .menu_item {
+        margin-bottom: 20px;
+        margin-right: 0;
+
+
+    }
+    .main {
+        margin-left: 0;
+    }
+
+
+    .sidebar {      
+        height: auto;
+        align-items: center;
+        margin-top: -165px;
+    }
+    .avatar {
+        transform: translate(-50%, 0%);        
+        left: 50%;
+    }
+    .name {
+        margin-top: 330px;
+        margin-left: 0;
+    } 
+    .job {
+        margin-left: 0;
+    }
+    .social {
+        margin-left: 0;
+        justify-content: center;
+    }
+    .card {
+        width: auto;
+        margin-left: 0;
+    }
+    .download_btn {
+        margin-left: 0;
+    }
+    
+
+    .skills_section {
+        display: flex;
+        flex-direction: column;
+    }
+    .skills {
+        margin-right: 60px;
+    }
+    .knowledges {
+        margin-left: 60px;
+    }
+
+
+    .section {
+        display: flex;
+        flex-direction: column;
+    }
+    .education {
+        margin-right: 0;
+    }
+    .experience {
+        margin-top: 30px;
+    }
+
+
+    .brand_img {
+        flex-wrap: wrap;
+    }
+    .brand {
+        margin-right: 30px;
+    }
+}
+
+  
+
+
+    

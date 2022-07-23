@@ -1,0 +1,183 @@
+
+
+.container {
+    width: 840px;
+    margin: 50px auto;
+}
+.title {
+    display: flex;
+    justify-content: space-between;
+    line-height: 45px;
+}
+
+.name_title {
+
+}
+
+
+.breadcrumb {
+    text-decoration: none;
+    font-size: 11px;
+    color:#999999;
+}
+.show_listens {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: #666666;
+    align-items: center;
+}
+
+.icon_listens {
+    width: 25px;
+    height: 25px;
+}
+.name_singer {
+    color:black;
+    font-size: 22px;
+    font-weight:500;    
+    font-style: normal;
+    line-height: 24px;
+    font-family: sans-serif;
+    width: auto;
+    display: inline; }
+
+.name_song {
+    color:black;
+    width:auto;
+    font-size: 22px;
+    font-weight: 500;
+    font-style: normal;
+    font-family: sans-serif;
+    display: inline; }
+.main_screen {
+    display: flex;
+    flex-direction: column;
+   
+
+}
+.header_img {
+    width: 80px;
+    display: flex;
+    padding: 10px;
+    
+}
+.lyric_audio {
+    background-color: black;
+}
+.audio {
+    height: 50px;
+    width: 840px; 
+    
+    display: block;
+    background-color: whitesmoke;
+   }
+.box_menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.user_upload {
+    display: flex;
+    flex-direction: row;
+}
+ .logo {
+    float: left;
+    border: 2px solid #ccc;
+    height: 48px;
+    width: 48px;
+    border-radius: 40px;
+    margin-top: -8px;
+    margin-right: 8px;
+}
+.user {
+    margin: auto;
+}
+.provided {
+    font-size:14px;
+    text-align:left;
+    font-family: sans-serif;
+    line-height: 1.4;
+    font-weight: 400;
+    display:inline;
+}
+
+.provider {
+    color:#0689BA;
+    font-weight:bold;
+    
+
+} 
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex:1;
+    justify-content: end;
+    
+}
+.control_title:hover {
+    color: #0689BA;
+    text-decoration: none;
+}
+.control_title {
+    margin-right: 10px;
+    height: auto;
+    cursor: pointer;
+   
+}
+.control_icon {
+    margin-bottom: -5px;
+    width: 20px;
+    height: auto;
+    cursor: pointer;
+}
+.pd_name_lyric {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+}
+
+
+.lyric {
+    border: #e3e3e3 solid 1px;
+   
+    margin: 0px 0 20px 0; 
+    
+    padding: 20px;
+}
+.i4_name_lyric {
+    line-height: 4px;
+}
+.name_lyric {
+    color: #333; 
+    font-size: 18px;
+    font-style: normal; 
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.name_post {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #9a9a9a;
+}
+
+.lyric_trans {
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.lyric_trans > div {
+    border-bottom: #dbdbdb solid 1px;
+    padding: 0px 0px 5px 0px;
+    margin-bottom: 8px;
+    margin-top: -5px;
+}
+
+
+.lyric_line {
+    border-bottom: #b4b0b0 solid 1px;
+    padding: 0px 0px 5px 0px;
+    margin-bottom: 8px;
+}
