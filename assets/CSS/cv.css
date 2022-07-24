@@ -241,13 +241,13 @@
     filter: brightness(0) invert(1);
   }
 
-  .header {
+  .main_header {
     display: flex;
     align-items: center;
     margin: 83px 0 8px 60px;
   }
 
-  .title {
+  .header_title {
     font-size: 40px;
     font-weight: 700;
     line-height: 52.75px;
@@ -258,7 +258,7 @@
     margin: 0;
   }
 
-  .line {
+  .header_line {
     width: 25%;
     margin-left: 216px;
     border:  2px solid  white; 
@@ -267,23 +267,21 @@
     height:2px;
   }
 
-  .contents {
+  .header_contents {
     margin: 30px 114px 0 60px;
   }
 
-  .content1 {   
+  .header_content1 {   
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
     color: #44566C;
-    margin: 15px 0 0 0;
+    margin-top: 15px;
   }
 
-  .content2 {   
-    left: 815px;
-    top: 671px;
+  .header_content2 {   
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -375,7 +373,7 @@
     color: #44566C;
   }
 
-  .section {
+  .edu_exp_section {
     display: flex;
     padding: 60px;
   }
