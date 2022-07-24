@@ -40,16 +40,12 @@
     background-color:#FFFFFF;
     border-radius: 20px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     position: relative;
   }
 
   .main {
     margin-top: 184px ;
     margin-left: 40px;
-    width: 100%;
-    height: auto;
     background-color:white ;
     border-radius: var(--border-radius-default); 
     display: flex;
@@ -78,9 +74,7 @@
     justify-content: center;
     align-items:flex-start;
     flex-direction: row;
-    margin: 20px 10px 30px 0;
-    width: 40px;
-    height: 40px; 
+    margin: 20px 0 30px 0;
   }
 
   .facebook_icon {
@@ -92,41 +86,6 @@
   .instagram_icon {
     margin-right: 10px;
   }
-
-  /* .facebook_icon {
-    background-color: #F3F6F7;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 8px;
-  } 
-
-  .twiter_icon {
-    background-color: #F3F6F7;
-    display: flex;
-    justify-content: center;
-    align-items: center;  
-    border-radius: 8px;
-    margin-left: 10px;
-  }
-
-  .instagram_icon {
-    background-color: #F3F6F7;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 8px;
-    margin-left: 10px;
-  }
-
-  .linkedin_icon {
-    background-color: #F3F6F7;
-    display: flex;
-    justify-content: center;
-    align-items: center;   
-    border-radius: 8px;
-    margin-left: 10px;
-  } */
 
   .name {
     margin-top: 140px;
@@ -146,6 +105,7 @@
     text-align: center;
     margin-top: -2px;
     padding: 5px 20px ;
+
   }
 
   .card {
@@ -259,7 +219,7 @@
   .menu_item_icon {
     margin-bottom: 7px;
   }
-
+ 
   .menu_item_title {
     font-family: 'Poppins';
     font-style: normal;
@@ -299,7 +259,7 @@
   }
 
   .line {
-    width: 200px;
+    width: 25%;
     margin-left: 216px;
     border:  2px solid  white; 
     border-radius: 3px;
@@ -308,8 +268,6 @@
   }
 
   .contents {
-    display: flex;
-    flex-direction: column;
     margin: 30px 114px 0 60px;
   }
 
@@ -369,7 +327,6 @@
   .skill {
     display: flex;
     justify-content: space-between;   
-    height: auto;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -377,49 +334,15 @@
     line-height: 24px;
     color: #44566C;   
     margin-bottom: 8px;
+    margin-right: 15px;
   }
   
   progress {
-    border: none;
-    width: auto;
-    height: 6px; 
-    border-radius: 18px;
+     width: 100%;
   } 
-
-  progress::-webkit-progress-bar {
-    background: #EDF2F2 ;
-    border-radius: 18px;
-  }
-
-  progress::-webkit-progress-value {
-    background: #FF6464;
-    border-radius: 18px;
-  }
-
-  progress:nth-child(2) :-webkit-progress-value {
-    background: #9272D5;
-    border-radius: 18px;
-  }
-  /* .html_skill_percent progress::-webkit-progress-value {
-    background: #FF6464;
-    border-radius: 18px;
-  }
-  .css_skill_percent progress::-webkit-progress-value {
-    background: #9272D5;
-    border-radius: 18px;
-  }
-  .jvscr_skill_percent progress::-webkit-progress-value {
-    background: #5185D5;
-    border-radius: 18px;
-  }
-  .reactjs_skill_percent progress::-webkit-progress-value {
-    background: #CA56F2;
-    border-radius: 18px;
-  } */
-
   
   .knowledges {
-    margin: 60px 30px 60px 0;
+    margin: 60px 60px 60px 0;
     display: flex;
     flex: 1;
     flex-direction: column;
@@ -452,6 +375,10 @@
     color: #44566C;
   }
 
+  .section {
+    display: flex;
+    padding: 60px;
+  }
 
   .education {
     display: flex;
@@ -459,11 +386,6 @@
     flex: 1;
     margin-right: 30px; 
   }
-
-  .education_content {
-    margin: 0;
-  }
-
   .edu_content{
     width: 100%;
     height: 120px;  
@@ -473,7 +395,6 @@
     box-sizing: border-box;
     padding: 14px 0 14px 20px;
   }
-
   .edu_content:nth-child(1) {
     height: auto;
   }
@@ -485,11 +406,9 @@
     background: #EEF5FA;
     height: auto;  
   }
-
   .education_title {
     display: flex;
   }
- 
   .edu_title {
     margin: 0 ;
     font-family: 'Poppins';
@@ -499,56 +418,41 @@
     line-height: 39px;
   }
 
-  .year {
-    margin: 0;
-    font-size: 14px;
-    font-family: 'poppins';
-    font-weight: 400;
-    line-height: 30px;
-    color: #44566C;    
-  }
-
-  .place {
-    font-size: 18px;
-    font-family: 'poppins';
-    font-weight: 400;
-    line-height: 30px;
-    margin: 0;
-  }
-
-  .smoke_edu {
-    margin: 0;
-    font-size: 16px;
-    font-family: 'poppins';
-    font-weight: 400;
-    line-height: 30px;
-    color: #44566C; 
-  }
+    .year {
+      font-size: 14px;
+      font-family: 'poppins';
+      font-weight: 400;
+      line-height: 30px;
+      color: #44566C;    
+    }
+    .place {
+      font-size: 18px;
+      font-family: 'poppins';
+      font-weight: 400;
+      line-height: 30px;
+    }
+    .smoke_edu {
+      font-size: 16px;
+      font-family: 'poppins';
+      font-weight: 400;
+      line-height: 30px;
+      color: #44566C; 
+    }
   
   .experience {
     display: flex;
     flex-direction: column;
     flex: 1;
-    margin: 0;
   }
-
-
   .experience_title {
     display: flex;   
   }
-
   .exp_title {
-    margin: 0;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 26px;
     line-height: 39px;
-  }
-
-  .section {
-    display: flex;
-    padding: 60px;
   }
 
   .exp_content {
@@ -560,12 +464,10 @@
     margin-top: 20px;
     box-sizing: border-box;   
   }
-
   .exp_content:nth-child(2){
     background: #F2F4FF;
     height: auto;
   }
-
   .exp_content:nth-child(3) {
     background:#FCF9F2;
     height: auto;
@@ -598,6 +500,7 @@
   .brand_img {
     display: flex;
     margin: 0 61px 40px 61px;
+    flex-wrap: wrap;
   }
   .brand {
     margin-right: 50px;

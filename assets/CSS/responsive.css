@@ -32,8 +32,7 @@
         box-sizing: border-box;   
         margin-top: -160px;  
         flex-direction: row;  
-        flex: 1;
-        display: flex;
+        
     }
     .avatar {
         position: unset;
@@ -43,21 +42,17 @@
 
     .info {
         flex: 1;
+        align-items: flex-start;
+        margin-right: 60px;
     }
     .name {
-        margin-top: 60px;
-               
-    }
-    .job {
-          
-    }
-    .social {
-        margin-top: 20px; 
-    }
+        margin-top: 60px;              
+    }   
     .card {
         background-color: white;
         padding: 0;
-        width: auto;
+        width: 100%;
+        margin: 0 0 40px 0;
     }
     .card_item {
         border-bottom: solid 1px #e3e3e3;
@@ -106,33 +101,25 @@
         margin-left: 0;
     }
 
-
     .sidebar {      
         height: auto;
         align-items: center;
         margin-top: -165px;
+        flex-direction: column;
     }
-    .avatar {
-        transform: translate(-50%, 0%);        
-        left: 50%;
+    .avatar {     
+        margin: 60px 0 0 0;
+    }
+    .info {
+        flex: none;
+        align-items: center;
+        margin: 0;
     }
     .name {
-        margin-top: 330px;
-        margin-left: 0;
+        margin-top: 30px;
     } 
-    .job {
-        margin-left: 0;
-    }
     .social {
-        margin-left: 0;
-        justify-content: center;
-    }
-    .card {
-        width: auto;
-        margin-left: 0;
-    }
-    .download_btn {
-        margin-left: 0;
+        margin-right: 0;
     }
     
 
