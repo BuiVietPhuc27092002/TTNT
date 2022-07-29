@@ -499,9 +499,11 @@
     display: flex;
     margin: 0 61px 40px 61px;
     flex-wrap: wrap;
+    justify-content: center;
   }
   .brand {
     margin-right: 50px;
+    margin-bottom: 30px;
   }
   .brand:last-child {
     margin-right: 0;
