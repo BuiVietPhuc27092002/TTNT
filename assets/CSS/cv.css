@@ -497,7 +497,7 @@
 
   .brand_img {
     display: flex;
-    margin: 0 61px 40px 61px;
+    margin: 0 61px 10px 61px;
     flex-wrap: wrap;
     justify-content: center;
   }
